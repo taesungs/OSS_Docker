@@ -1,0 +1,7 @@
+services:
+  fastapi-app:
+    build: .
+    container_name: fastapi-courses
+    ports:
+      - "80:8000"
+    restart: always
